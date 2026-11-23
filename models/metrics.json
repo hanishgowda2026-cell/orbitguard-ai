@@ -1,0 +1,12 @@
+{
+  "dataset": "ESA Kelvins Collision Avoidance Challenge",
+  "eligible_events": 11942,
+  "training_events": 9553,
+  "validation_events": 2389,
+  "mae_log10_risk": 3.0452,
+  "rmse_log10_risk": 5.2548,
+  "model": "HistGradientBoostingRegressor",
+  "target": "final log10 collision probability",
+  "minimum_lead_time_days": 2,
+  "note": "Event-level split; predictions are estimates, not operational collision warnings."
+}

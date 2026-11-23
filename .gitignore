@@ -1,0 +1,77 @@
+
+# ==========================================
+# ORBITGUARD AI - Git Ignore Configuration
+# ==========================================
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large ESA Datasets
+*.csv
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Local Database and Prediction History
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files and Logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Coverage Reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Keep the trained ML model for deployment
+!models/
+!models/*.joblib
+!models/*.json
+
+# Keep small ESA example data for the website
+!data/encounter_samples.json
